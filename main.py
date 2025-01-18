@@ -14,8 +14,8 @@ def send_message(text, chat_id):
     url = f"https://api.telegram.org/bot{TOKEN}/sendMessage"
 
     keyboard_buttons = [
-        [{'text': 'Tugma 1'}, {'text': 'Tugma 2'}, ],  
-        [{'text': 'Tugma 7'}]   
+        [{'text': 'Tugma '}, {'text': 'Tugma '}, ],  
+        [{'text': 'Tugma '}]   
     ]
 
 
